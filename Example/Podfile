@@ -2,3 +2,10 @@ platform :ios, '7.0'
 
 pod 'TTZoomTransition', :path => '../'
 
+target 'TTZoomTransitionExampleTests' do
+  pod 'Specta'
+  pod 'Expecta'
+  pod 'FBSnapshotTestCase'
+  pod 'Expecta+Snapshots'
+end
+
