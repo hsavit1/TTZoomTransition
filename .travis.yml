@@ -1,7 +1,4 @@
 language: objective-c
 xcode_workspace: Example/TTZoomTransitionExample.xcworkspace
 xcode_scheme: TTZoomTransitionExample
-xcode_sdk:
-  - iphonesimulator8.1
-  - iphonesimulator7.1
-  - iphonesimulator7.0
+xctool_args: -destination "platform=iOS Simulator,name=iPhone 6"
