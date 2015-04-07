@@ -20,6 +20,7 @@
 		E068BBD51AAC5A8A001648B8 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E068BBD41AAC5A8A001648B8 /* Images.xcassets */; };
 		E068BBD81AAC5A8A001648B8 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = E068BBD61AAC5A8A001648B8 /* LaunchScreen.xib */; };
 		E068BBE41AAC5A8A001648B8 /* TTZoomTransitionExampleTests.m in Sources */ = {isa = PBXBuildFile; fileRef = E068BBE31AAC5A8A001648B8 /* TTZoomTransitionExampleTests.m */; };
+		E0FFE5F21AC74D650087D5C3 /* TransitioningTests.m in Sources */ = {isa = PBXBuildFile; fileRef = E0FFE5F11AC74D650087D5C3 /* TransitioningTests.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -57,6 +58,7 @@
 		E068BBDD1AAC5A8A001648B8 /* TTZoomTransitionExampleTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TTZoomTransitionExampleTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		E068BBE21AAC5A8A001648B8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		E068BBE31AAC5A8A001648B8 /* TTZoomTransitionExampleTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TTZoomTransitionExampleTests.m; sourceTree = "<group>"; };
+		E0FFE5F11AC74D650087D5C3 /* TransitioningTests.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TransitioningTests.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -152,6 +154,7 @@
 			isa = PBXGroup;
 			children = (
 				E068BBE31AAC5A8A001648B8 /* TTZoomTransitionExampleTests.m */,
+				E0FFE5F11AC74D650087D5C3 /* TransitioningTests.m */,
 				E068BBE11AAC5A8A001648B8 /* Supporting Files */,
 			);
 			path = TTZoomTransitionExampleTests;
@@ -346,6 +349,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E0FFE5F21AC74D650087D5C3 /* TransitioningTests.m in Sources */,
 				E068BBE41AAC5A8A001648B8 /* TTZoomTransitionExampleTests.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

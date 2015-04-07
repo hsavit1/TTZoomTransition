@@ -5,7 +5,7 @@ pod 'TTZoomTransition', :path => '../'
 target 'TTZoomTransitionExampleTests' do
   pod 'Specta'
   pod 'Expecta'
-  pod 'FBSnapshotTestCase'
   pod 'Expecta+Snapshots'
+  pod 'OCMock'
 end
 
